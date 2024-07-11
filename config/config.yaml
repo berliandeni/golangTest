@@ -1,0 +1,12 @@
+database:
+  user: root
+  password: password
+  net: tcp
+  addr: localhost:3307
+  dbname: invoice
+  allowNativePasswords: true
+  params:
+    parseTime: "true"
+
+server:
+  address: 8888
